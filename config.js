@@ -1,9 +1,9 @@
 module.exports = {
-  host: '<host>',
-  port: 0000,
+  host: 'resoltzdbserver.postgres.database.azure.com',
+  port: 5432,
   ssl: true,
-  user: '<user>',
-  password: '<password>',
-  database: '<database>',
+  user: 'resoltzAdmin@resoltzdbserver',
+  password: 'admin@Resoltz',
+  database: 'postgres',
   max: 10
 };

@@ -4,9 +4,9 @@
       "type": "eventHubTrigger",
       "name": "IoTHubTrigger",
       "direction": "in",
-      "path": "<event-hub-name>",
+      "path": "resoltziot-hub",
       "connection": "iothub-ehub",
-      "consumerGroup": "<consumer-group-name>"
+      "consumerGroup": "resoltzconsumer"
     }
   ],
   "disabled": false
